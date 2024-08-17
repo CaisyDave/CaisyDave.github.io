@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Raise Chess Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #ffffff;
+  color: Black;
+  font-size: 25px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p><img src="https://images.squarespace-cdn.com/content/v1/59ecbf244c0dbfd368998cb2/6994abfe-a761-4c2f-8499-320ce6aed284/RCA+logo.jpg?format=1000w" alt="boy" class="w3-image" width="400" height="275"></p>
+  <p><b><i>Together We Have the Power to Build a Better World for Everyone</i></b></p>
+</div>
+
+
+<div class="navbar">
+  <a href="#">About Us</a>
+  <a href="#">Our Programmes</a>
+  <a href="#">Get Involved</a>
+  <a href="https://reframe.network/donate-now.php?rlo=252" class="right">Donate</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Our Partners</h2>
+    <h5></h5>
+    <img src="https://scontent.fman4-2.fna.fbcdn.net/v/t39.30808-6/327178048_572979294735341_7804924295544208015_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hj4MSVf0N_kQ7kNvgFC4wEO&_nc_ht=scontent.fman4-2.fna&oh=00_AYBh6zavxo4OnIupykHBS7GOwZXfSkX3dZMhAX5CkieH3A&oe=66C592C2" alt="Soccer Without Borders" class="w3-image" width="100" height="100"> <img src="https://scontent.fman4-1.fna.fbcdn.net/v/t39.30808-6/354250641_308044998224160_8994084923751474014_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9-81w1Gw37QQ7kNvgF--Iaf&_nc_ht=scontent.fman4-1.fna&oh=00_AYACG2zpaViSZMkX0rwecpA6j0GoUbLtao-77rZQ_dWjQg&oe=66C58D17" alt="CoHere" class="w3-image" width="100" height="100"> <img src="https://media.licdn.com/dms/image/D4D22AQFb9SH0o23JTQ/feedshare-shrink_2048_1536/0/1689451751322?e=2147483647&v=beta&t=VOO2P69h3NKjV7q5YQ7RKZ-d7e6Idpkvz3Luht5omkA" alt="The Gift Of Chess" class="w3-image" width="110" height="100">
+  </div>
+  <div class="main">
+    <h2>Our Mission</h2>
+    <h5>Together We Have the Power to Build a Better World for Everyone</h5>
+    <p>Raise Chess Academy is a refugee led organization that is transforming the lives of refugee children and youths of different cultures, backgrounds, communities and nationalities through sports, chess and education. For refugee youths who have escaped wars and other challenging situations RCA becomes a rehabilitation place and a bridge for success and transformation of their lives again.
+Many refugee youths lose hope as they come to new communities where a different language is spoken and face discrimination and negativity, sports and chess is now seen as a tool to combat barriers and restore hope for the negatively affected refugee children and youths.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
